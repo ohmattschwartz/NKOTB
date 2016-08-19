@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'neuropol';
+    src: url('./neuropol.ttf') format('truetype');
+}
+
+.App-header {
+  background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
+  height: 250px;
+  padding: 20px;
+  color: white;
+  border-bottom: 10px solid #E54A42;
+}
+
+.App-header img {
+  height: 200px;
+  padding-top: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-body {
+  background-image:url('http://cdn.playbuzz.com/cdn/1a417248-86f5-42cf-97b9-82aa1d0e7b41/696d2da1-a990-4fac-8dc1-76d2b4db4ff6.jpg');
+  height: 500px;
+  color: white;
+}
+
+.App-body ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 25px 0 0 0;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.App-body img {
+  height: 50px;
+}
+
+.theGang img {
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.myMTV img {
+  height: 70px;
+  padding-left: 10px;
+
+}
+.App-footer {
+  background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
+  border-top: 10px solid #E54A42;
+}
+
+.App-footer ul {
+  font-family: 'neuropol';
+  font-weight: bold;
+  text-shadow: 0px 3px 3px black;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  color: #E54A42;
+}
+
+.App-footer img {
+  height: 60px;
+}
