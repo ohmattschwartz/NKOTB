@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Song from './Song';
-import './index.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Hype from './Hype'
+import './index.css'
 
 ReactDOM.render(
-  <Song />,
+  <Hype />,
   document.getElementById('root')
-);
+)

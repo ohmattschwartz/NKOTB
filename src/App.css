@@ -5,6 +5,13 @@
     src: url('./Luna.ttf') format('truetype');
 }
 
+/*HOME-BOILERPLATE CSS*/
+/*HOME-BOILERPLATE CSS*/
+/*HOME-BOILERPLATE CSS*/
+/*HOME-BOILERPLATE CSS*/
+/*HOME-BOILERPLATE CSS*/
+/*HOME-BOILERPLATE CSS*/
+
 .App-header {
   background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
   height: 250px;
@@ -74,14 +81,12 @@
   height: 60px;
 }
 
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
+/*// MEDIA PAGE CSS*/
+/*// MEDIA PAGE CSS*/
+/*// MEDIA PAGE CSS*/
+/*// MEDIA PAGE CSS*/
+/*// MEDIA PAGE CSS*/
+/*// MEDIA PAGE CSS*/
 
 .theSongsBody {
   width: 70%;
@@ -190,11 +195,97 @@ justify-content: center;
   color: #E54A42;
 }
 
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
-/*// DARREN'S STUFF*/
+/*HYPE PAGE CSS*/
+/*HYPE PAGE CSS*/
+/*HYPE PAGE CSS*/
+/*HYPE PAGE CSS*/
+/*HYPE PAGE CSS*/
+/*HYPE PAGE CSS*/
+
+.theHypeBody {
+  width: 70%;
+  height: 100%;
+  background-color:
+  #fce946;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.hypetitle {
+  font-family: 'neuropol';
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #fce946;
+}
+
+.tvcontainer {
+display: flex;
+justify-content: center;
+}
+
+.Hype-body {
+  background-image:url('http://cdn.playbuzz.com/cdn/1a417248-86f5-42cf-97b9-82aa1d0e7b41/696d2da1-a990-4fac-8dc1-76d2b4db4ff6.jpg');
+  height: 1500px;
+  color: white;
+}
+
+.Hype-body ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 25px 0 0 0;
+  margin: 0;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.Hype-body img {
+  height: 50px;
+}
+
+.theHypeContainer {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.Hype-myMTV img {
+  height: 70px;
+  padding-left: 10px;
+  display: none;
+}
+.Hype-footer {
+  background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
+  border-top: 10px solid #E54A42;
+}
+
+.Hype-footer ul {
+  font-family: 'neuropol', sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 3px 3px black;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  color: #E54A42;
+  margin-bottom: 0;
+}
+
+.Hype-footer img {
+  height: 60px;
+}
+
+.handwriting {
+  font-family: 'Luna', cursive;
+  color: #E54A42;
+  margin-left: 20px;
+}
+
+.BRAXdump {
+  font-size: 8px;
+  color: #E54A42;
+}
