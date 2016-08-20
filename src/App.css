@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'neuropol';
     src: url('./neuropol.ttf') format('truetype');
+    font-family: 'luna';
+    src: url('./Luna.ttf') format('truetype');
 }
 
 .App-header {
@@ -71,3 +73,122 @@
 .App-footer img {
   height: 60px;
 }
+
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+
+.theSongsBody {
+  width: 70%;
+  height: 100%;
+  background-color:
+  #37abe2;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.songtitle {
+  font-family: 'neuropol';
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #fce946;
+}
+
+.tvtitle {
+  font-family: 'neuropol';
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: #E54A42;
+}
+
+.tvcontainer {
+display: flex;
+justify-content: center;
+}
+
+.Songs-body {
+  background-image:url('http://cdn.playbuzz.com/cdn/1a417248-86f5-42cf-97b9-82aa1d0e7b41/696d2da1-a990-4fac-8dc1-76d2b4db4ff6.jpg');
+  height: 1500px;
+  color: white;
+}
+
+.Songs-body ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 25px 0 0 0;
+  margin: 0;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.Songs-body img {
+  height: 50px;
+}
+
+.theSongsContainer {
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.Songs-myMTV img {
+  height: 70px;
+  padding-left: 10px;
+
+}
+.Songs-footer {
+  background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
+  border-top: 10px solid #E54A42;
+}
+
+.Songs-footer ul {
+  font-family: 'neuropol', sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 3px 3px black;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  color: #E54A42;
+}
+
+.Songs-footer img {
+  height: 60px;
+}
+
+.handwriting {
+  font-family: 'Luna', cursive;
+  color: #E54A42;
+  margin-left: 20px;
+}
+
+.YO {
+  font-family: 'Luna', cursive;
+  color: #E54A42;
+  font-size: 60px;
+}
+
+.theSongsLetter {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
+/*// DARREN'S STUFF*/
