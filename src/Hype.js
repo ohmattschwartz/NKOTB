@@ -9,6 +9,7 @@ class Hype extends Component {
       documents: []
     }
   }
+  // http://www.nytimes.com/1990/03/27/arts/review-music-new-kids-on-the-block-end-tour.html
   componentDidMount(){
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=new&fq=pub_date=2016-08&&api-key=2034278a644d4e91abe0514b2d6c4845"
     fetch(url)
