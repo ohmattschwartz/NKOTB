@@ -85,7 +85,7 @@
 
 .theSongsBody {
   width: 70%;
-  height: 100%;
+  height: 1300px;
   background-color:
   #37abe2;
   margin-left: auto;
@@ -145,7 +145,7 @@ justify-content: center;
 .Songs-myMTV img {
   height: 70px;
   padding-left: 10px;
-
+  display: none;
 }
 .Songs-footer {
   background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
@@ -161,6 +161,7 @@ justify-content: center;
   justify-content: space-around;
   padding-top: 20px;
   color: #E54A42;
+  margin-bottom: 0;
 }
 
 .Songs-footer img {
@@ -182,6 +183,11 @@ justify-content: center;
 .theSongsLetter {
   display: flex;
   justify-content: flex-start;
+}
+
+.BRAXdump {
+  font-size: 8px;
+  color: #E54A42;
 }
 
 /*// DARREN'S STUFF*/
