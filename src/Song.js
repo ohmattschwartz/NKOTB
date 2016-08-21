@@ -11,6 +11,9 @@ class Song extends Component {
         <div className='Songs-body'>
         <ul>
         <li>
+          <img src='images/home_button.png' alt=''/>
+        </li>
+        <li>
           <img src='images/about_button.jpg' alt=''/>
         </li>
          <li>
@@ -26,7 +29,7 @@ class Song extends Component {
           <div className='theSongsContainer'>
             <div className='theSongsLetter'>
               <div className='YO'>YO!</div>
-              <div className='handwriting'> We looooooove our fans and to to give them something back for all of their support, I've personally added our hits for everyone to soak in. See you at the next concert! - Donny</div>
+              <div className='handwriting'> We looooooove our fans and to give them something back for all of their support, I've personally added our hits for everyone to soak in. See you at the next concert! - Donny</div>
               <img src='images/donnie.gif' alt=''/>
           </div>
             <div className='songtitle'> Hangin' Tough</div>

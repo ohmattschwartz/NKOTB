@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './App.css'
 
 class Hype extends Component {
-//experiment
   constructor() {
     super()
     this.state = {
@@ -28,16 +27,17 @@ class Hype extends Component {
           <img src='images/NKOTBlogo_Red.png' alt='something'/>
         </div>
         <div className='App-body'>
+        <ul>
+          <li><img src='images/home_button.png' alt='Home'/></li>
+          <li><img src='images/about_button.jpg' alt='About'/></li>
+          <li><img src='images/songs_button.jpg' alt='Media'/></li>
+          <li><img src='images/news_button.jpg' alt='News'/></li>
+        </ul>
           <div className='theHypeBody'>
-            <ul>
-              {this.state.documents.map((document, index) =>
-                <li key={index}>{document.source}</li>
-              )}
-              <li><img src='images/home_button.jpg' alt='Home'/></li>
-              <li><img src='images/about_button.jpg' alt='About'/></li>
-              <li><img src='images/songs_button.jpg' alt='Media'/></li>
-              <li><img src='images/news_button.jpg' alt='News'/></li>
-            </ul>
+          <div className='reviewsheadline'>HEADLINE GOES HERE</div>
+            {this.state.documents.map((document, index) =>
+              <div className='reviewcontent'> key={index}>{document.source}</div>
+            )}
           </div>
         </div>
       </div>
