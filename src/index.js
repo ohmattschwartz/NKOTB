@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Hype from './Hype'
+import App from './App'
 import './index.css'
 
 ReactDOM.render(
-  <Hype />,
+  <App />,
   document.getElementById('root')
 )
