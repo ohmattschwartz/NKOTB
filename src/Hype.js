@@ -36,7 +36,7 @@ class Hype extends Component {
           <div className='theHypeBody'>
           <div className='reviewsheadline'>HEADLINE GOES HERE</div>
             {this.state.documents.map((document, index) =>
-              <div className='reviewcontent'> key={index}>{document.source}</div>
+              <div className='reviewcontent'> key={index}>{document.}</div>
             )}
           </div>
         </div>
