@@ -210,6 +210,7 @@ justify-content: center;
   font-family: 'Luna', cursive;
   color: #E54A42;
   font-size: 60px;
+  line-height: 80px;
 }
 
 .theSongsLetter {
@@ -226,7 +227,7 @@ justify-content: center;
 
 .theHypeBody {
   width: 70%;
-  height: 300px;
+  height: 475px;
   background-color:
   #fce946;
   margin-left: auto;
@@ -282,6 +283,7 @@ justify-content: center;
 .Hype-footer {
   background-image: url('http://zabbyallen.com/user/pages/01.blog/freebie-friday-90s-inspired-backgrounds/triangles-background.jpg');
   border-top: 10px solid #E54A42;
+  margin-top: 20px;
 }
 
 .Hype-footer ul {
@@ -308,14 +310,86 @@ justify-content: center;
 
 .reviewsheadline {
   font-family: 'neuropol';
-  font-size: 36px;
+  font-size: 24px;
   margin-bottom: 20px;
   margin-top: 10px;
-  color: #E54A42;
+  color: #37abe2;
+}
+
+.reviewsheadline a:visited {
+  color: #37abe2;
+  text-decoration: underline;
+}
+
+.reviewsheadline a:hover {
+  color: #37abe2;
+  text-decoration: underline;
+}
+
+.reviewsheadline a:link {
+  color: #37abe2;
+  text-decoration: none;
 }
 
 .reviewcontent {
   font-size: 12px;
   font: arial;
   color: #E54A42;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reviewlink {
+  font-family: 'Neuropol', sans-serif;
+  font-size: 12px;
+  color: #37abe2;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.reviewlink a:link {
+  color: #37abe2;
+  text-decoration: none;
+}
+
+.reviewlink a:hover {
+  color: #37abe2;
+  text-decoration: underline;
+}
+
+.reviewlink a:active {
+  color: #37abe2;
+  text-decoration: underline;
+}
+
+.reviewlink a:visited {
+  color: #37abe2;
+  text-decoration: underline;
+}
+
+.Joey-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Joey-note {
+  margin-left: 30px;
+  margin-right: 20px;
+  color: #E54A42;
+  font-family: 'luna';
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.YO-Joey {
+  font-family: 'Luna', cursive;
+  color: #E54A42;
+  font-size:50px;
+  line-height: 80px;
+  margin-right: 20px;
+}
+
+.article {
+  margin-top: 40px;
 }

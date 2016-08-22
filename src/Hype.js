@@ -23,8 +23,7 @@ class Hype extends Component {
       <div>
         <div className="App">
           <div className="App-header">
-            <img src="images/NKOTBlogo_Red.png" alt="something" />
-          </div>
+            <img src="images/NKOTBlogo_Red.png" alt="something" /></div>
           <div className="App-body">
             <ul>
               <li><img src="images/home_button.png" alt="Home" /></li>
@@ -33,10 +32,27 @@ class Hype extends Component {
               <li><img src="images/news_button.jpg" alt="News" /></li>
             </ul>
             <div className="theHypeBody">
-              <div className="reviewsheadline">New Kids On The Block</div>
-            {this.state.documents.map((document, index) =>
-              <div className="reviewcontent">{document.snippet}</div>
-            )}
+              <div className="Joey-body">
+                <div className="YO-Joey">Joey here!</div>
+                <img src="images/joey_animation.gif" alt="Home" />
+                <div className="Joey-note">As you all might know, it's not easy being in the spotlight. We've been working hard since our first album dropped and the world is really paying attention. <p>Don't believe me? Check out what the world has to say.</p></div>
+                </div>
+            {/* ARTICLE START */}
+                <div className="article">
+                  <div className="reviewsheadline"><a href="http://www.nytimes.com/1990/03/27/arts/review-music-new-kids-on-the-block-end-tour.html">The Hangin Tough Tour Reviewed</a></div>
+                    {this.state.documents.map((document, index) =>
+                  <div className="reviewcontent">{document.snippet}</div>
+                  )}
+                    <div className="reviewlink"><a href="http://www.nytimes.com/1990/03/27/arts/review-music-new-kids-on-the-block-end-tour.html">Read the full article here!</a></div>
+                </div>
+            {/* ARTICLE START */}
+                <div className="article">
+                  <div className="reviewsheadline"><a href="http://www.nytimes.com/1990/03/25/arts/l-new-kids-on-the-block-building-barriers-995790.html">The Hangin Tough Tour Reviewed</a></div>
+                    {this.state.documents.map((document, index) =>
+                  <div className="reviewcontent">{document.snippet}</div>
+                  )}
+                <div className="reviewlink"><a href="http://www.nytimes.com/1990/03/25/arts/l-new-kids-on-the-block-building-barriers-995790.html">Read the full article here!</a></div>
+                </div>
             </div>
           </div>
         </div>
