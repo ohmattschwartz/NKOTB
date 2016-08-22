@@ -8,9 +8,8 @@ class Hype extends Component {
       documents: []
     }
   }
-  // http://www.nytimes.com/1990/03/27/arts/review-music-new-kids-on-the-block-end-tour.html
   componentDidMount () {
-    var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=new&fq=pub_date=2016-08&&api-key=2034278a644d4e91abe0514b2d6c4845'
+    let url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=_id:4fd192738eb7c8105d69b7b3&api-key=2034278a644d4e91abe0514b2d6c4845"
     fetch(url)
       .then(res => res.json())
       .then(data => {
@@ -34,9 +33,9 @@ class Hype extends Component {
               <li><img src="images/news_button.jpg" alt="News" /></li>
             </ul>
             <div className="theHypeBody">
-              <div className="reviewsheadline">HEADLINE GOES HERE</div>
+              <div className="reviewsheadline">New Kids On The Block</div>
             {this.state.documents.map((document, index) =>
-              <div className="reviewcontent"> key={index}>{document.source}</div>
+              <div className="reviewcontent">{document.snippet}</div>
             )}
             </div>
           </div>
